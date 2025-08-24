@@ -19,18 +19,18 @@ To get started with the project, clone the repository and install the necessary 
     4. The backend will run on http://localhost:5000.
 
 ## Frontend
-    The frontend is built using Create React App and includes several components:
-    - **EventTrigger**: Component responsible for triggering events.
-    - **NotificationList**: Displays a list of notifications for the user.
-    - **UserList**: Shows a list of users in the system.
+The frontend is built using Create React App and includes several components:
+- **EventTrigger**: Component responsible for triggering events.
+- **NotificationList**: Displays a list of notifications for the user.
+- **UserList**: Shows a list of users in the system.
 
 ## Backend
-    The backend is built with Express.js and provides the following API endpoints:
-    - **POST /events**: Create an event.
-    - **GET /notifications/:userId**: Retrieve notifications for a specific user.
-    - **POST /notifications**: Manually create a notification (for testing).
-    - **POST /users**: Create a new user.
-    - **GET /users**: Retrieve a list of users.
+The backend is built with Express.js and provides the following API endpoints:
+- **POST /events**: Create an event.
+- **GET /notifications/:userId**: Retrieve notifications for a specific user.
+- **POST /notifications**: Manually create a notification (for testing).
+- **POST /users**: Create a new user.
+- **GET /users**: Retrieve a list of users.
 
 ## Database
-    The application uses SQLite for data storage, managing events and notifications efficiently.
+The application uses SQLite for data storage, managing events and notifications efficiently.
